@@ -8,15 +8,17 @@ import {FaFacebook, FaTwitter, FaYoutube,FaPinterest, FaInstagram } from 'react-
 const Navbar = () => {
 
 const [nav, setNav] = useState(false);
+const [logo, setLogo] = useState(false);
 
 let handleNav = () => {
   setNav(!nav)
+  setLogo(!logo)
 }
 
   return (
     <div className="flex justify-between items-center h-20 px-4">
-      <div>
-        <h1>LORETTO.Connect</h1>
+      <div >
+        <h1 onClick={handleNav} className={logo? 'hidden' : 'block'}>LORETTO.Connect</h1>
       </div>
       <ul className="hidden md:flex">
         <li>Home</li>
@@ -25,13 +27,13 @@ let handleNav = () => {
         <li>Gallery</li>
       </ul>
       <div className="hidden md:flex">
-        <BiSearch size={20}/>
+        <BiSearch size={20} className='mr-2'/>
         <BsPerson size={20}/>
       </div>
 
 {/* Hamburger for mobile  */}
-      <div className=" md:hidden" onClick={handleNav}>
-        {nav ? <AiOutlineClose size={20} /> :<HiOutlineMenuAlt4 size={20}/> }
+      <div className=" md:hidden z-10" onClick={handleNav}>
+        {nav ? <AiOutlineClose size={20} className='text-black'/> :<HiOutlineMenuAlt4 size={20}/> }
         
       </div>
 
