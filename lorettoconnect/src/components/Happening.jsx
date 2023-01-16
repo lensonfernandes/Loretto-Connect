@@ -1,6 +1,7 @@
 import React from "react";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import { MdOutlineTravelExplore } from "react-icons/md";
+import CalendarMan from '../assets/CalendarMan.png'
 
 const Happening = () => {
   return (
@@ -44,7 +45,11 @@ const Happening = () => {
           </div>
         </div>
       </div>
-      <div>right</div>
+      <div>
+        <div>
+            <img src={CalendarMan} alt="" />
+        </div>
+      </div>
     </div>
   );
 };
