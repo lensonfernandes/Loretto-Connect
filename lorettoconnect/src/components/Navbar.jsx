@@ -38,7 +38,7 @@ let handleNav = () => {
       </div>
 
 
-      <div onClick={handleNav} className={nav ? 'absolute left-[0] top-0 w-full bg-gray-200/90 px-4 py-7 flex flex-col':'absolute left-[-100%] top-0 w-full bg-gray-200/90 px-4 py-7 flex flex-col'}>
+      <div onClick={handleNav} className={nav ? 'absolute text-black left-[0] top-0 w-full bg-gray-200/90 px-4 py-7 flex flex-col':'absolute left-[-100%] top-0 w-full bg-gray-200/90 px-4 py-7 flex flex-col'}>
       <ul >
         <h1>Loretto.Connect</h1>
         <li className='border-b'>Home</li>

@@ -14,8 +14,8 @@
   body {
     @apply font-[Poppins]
   }
-  li {
-    @apply p-4 
+  li { 
+    @apply p-4 font-bold 
   }
 
   h1 {
