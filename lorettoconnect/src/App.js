@@ -1,4 +1,5 @@
 import React from 'react'
+import Happening from './components/Happening';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import PastWeek from './components/PastWeek';
@@ -9,6 +10,7 @@ function App() {
         <Navbar />
         <Hero />
         <PastWeek />
+        <Happening />
     </div>
   );
 }
