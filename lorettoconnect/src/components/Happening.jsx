@@ -1,6 +1,6 @@
 import React from "react";
-import { RiCustomerService2Fill } from "react-icons/ri";
-import { MdOutlineTravelExplore } from "react-icons/md";
+import { MdSportsCricket } from "react-icons/md";
+import { GiHolyWater } from "react-icons/gi";
 import CalendarMan from '../assets/CalendarMan.png'
 
 const Happening = () => {
@@ -18,7 +18,7 @@ const Happening = () => {
         <div className="grid sm:grid-cols-2 gap-8 py-4">
           <div className="flex flex-col lg:flex-row items-center text-center">
             <button>
-              <RiCustomerService2Fill  size={50}/>
+              <MdSportsCricket  size={50}/>
             </button>{" "}
             <div>
               <h3 className="py-2">Loretto Premier League</h3>
@@ -28,7 +28,7 @@ const Happening = () => {
 
           <div className="flex flex-col lg:flex-row items-center text-center">
             <button>
-              <MdOutlineTravelExplore size={50}/>
+              <GiHolyWater size={50}/>
             </button>{" "}
             <div>
               <h3 className="py-2">House Blessing/Visits</h3>
