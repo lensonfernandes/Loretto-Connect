@@ -22,12 +22,12 @@ let handleNav = () => {
       </div>
       <ul className="hidden md:flex">
         <li>Home</li>
-        <li>Upcoming Events</li>
-        <li>Announcements</li>
-        <li className='mr-60'>Gallery</li>
+        <li>Last week</li>
+        <li>Happening Now</li>
+        <li className='mr-60'>Memories</li>
       </ul>
       <div className="hidden md:flex">
-        <BiSearch size={20} className='mr-2'/>
+        {/* <BiSearch size={20} className='mr-2'/> */}
         <BsPerson size={20}/>
       </div>
 
