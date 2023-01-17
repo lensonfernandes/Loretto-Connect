@@ -24,7 +24,7 @@ let handleNav = () => {
         <li>Home</li>
         <li>Upcoming Events</li>
         <li>Announcements</li>
-        <li>Gallery</li>
+        <li className='mr-60'>Gallery</li>
       </ul>
       <div className="hidden md:flex">
         <BiSearch size={20} className='mr-2'/>
@@ -44,7 +44,7 @@ let handleNav = () => {
         <li className='border-b'>Home</li>
         <li className='border-b'>Upcoming Events</li>
         <li className='border-b'>Announcements</li>
-        <li className='border-b'>Gallery</li>
+        <li className='border-b '>Gallery</li>
         <div className='flex flex-col'>
           <button className='my-6'>LogIn</button>
           <button>About</button>
