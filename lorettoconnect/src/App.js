@@ -1,4 +1,5 @@
 import React from 'react'
+import Carousel from './components/Carousel';
 import Happening from './components/Happening';
 import Hero from './components/Hero';
 import Memories from './components/Memories';
@@ -13,6 +14,7 @@ function App() {
         <PastWeek />
         <Happening />
         <Memories/>
+        <Carousel />
     </div>
   );
 }
