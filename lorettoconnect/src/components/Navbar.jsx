@@ -42,9 +42,9 @@ let handleNav = () => {
       <ul >
         <h1>Loretto.Connect</h1>
         <li className='border-b'>Home</li>
-        <li className='border-b'>Upcoming Events</li>
-        <li className='border-b'>Announcements</li>
-        <li className='border-b '>Gallery</li>
+        <li className='border-b'>Last week</li>
+        <li className='border-b'>Happening now</li>
+        <li className='border-b '>Memories</li>
         <div className='flex flex-col'>
           <button className='my-6'>LogIn</button>
           <button>About</button>

@@ -10,17 +10,9 @@ const Happening = () => {
         <div>
           <h2>Happening this week...</h2>
           <p className="py-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-            expedita impedit ducimus nostrum velit officiis assumenda soluta
-            reprehenderit dolorem consectetur. Quas quia blanditiis fugiat,
-            voluptatem dolore labore laudantium eum sed ratione tempora ipsa
-            impedit maxime, numquam earum, nesciunt expedita quidem minima et
-            provident corporis saepe culpa? Ipsam alias quod sequi, vero qui
-            repellendus recusandae voluptatem odio doloribus dolor, ea facilis
-            cupiditate dolorum atque quasi ex. Ab nulla error delectus enim sit
-            at repellendus debitis! Quas fugit, officiis eveniet minima a id sed
-            assumenda odit ad repellat sequi quidem ea corrupti, voluptatum aut
-            aliquid eos cum? Dignissimos delectus hic id vero!
+            This week will be full of action as we are days away from the most awaited Cricket league of Loretto, that is , Loretto Premier League - Season 4. Participants are requested to submit their entries via Google Form before Jan 20.
+
+            Switching gears to Parish and family, yearly house blessing are starting this Monday and would carry on throughout the week in the evenings. 
           </p>
         </div>
         <div className="grid sm:grid-cols-2 gap-8 py-4">
