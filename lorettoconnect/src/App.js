@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from './components/Carousel';
+import Footer from './components/Footer';
 import Happening from './components/Happening';
 import Hero from './components/Hero';
 import Memories from './components/Memories';
@@ -15,6 +16,7 @@ function App() {
         <Happening />
         <Memories/>
         <Carousel />
+        <Footer />
     </div>
   );
 }
